@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD9240e48443687150ab859f674cdba54f</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>135051601bd43110c9c10d02604bcb48</scope_name>
+        <serialized_content>{"FlowDesigner:FD9240e48443687150ab859f674cdba54f":{},"FlowDesigner:FD9240e48443687150ab859f674cdba54f.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Movie Details w Date\",\"mandatory\":\"false\",\"uiUniqueId\":\"b45cbde2-7591-4118-a618-14e707179c17\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD9240e48443687150ab859f674cdba54f\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>daniel.draes</sys_created_by>
+        <sys_created_on>2023-08-04 07:08:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5640e4841b68715013de99f1b24bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD9240e48443687150ab859f674cdba54f</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
+        <sys_update_name>sys_complex_object_5640e4841b68715013de99f1b24bcb4f</sys_update_name>
+        <sys_updated_by>daniel.draes</sys_updated_by>
+        <sys_updated_on>2023-08-04 07:08:59</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>
