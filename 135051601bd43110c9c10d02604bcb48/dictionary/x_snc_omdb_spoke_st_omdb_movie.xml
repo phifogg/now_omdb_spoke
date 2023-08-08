@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="95f7215d1be4b11013de99f1b24bcbf0" label="OMDB Movie" max_length="40" name="x_snc_omdb_spoke_st_omdb_movie" type="collection">
+        <element label="IMDB ID" max_length="10" name="imdb_id" type="string"/>
+        <element label="Title" max_length="100" name="title" type="string"/>
+        <element label="Year" max_length="40" name="year" type="integer"/>
+    </element>
+</database>

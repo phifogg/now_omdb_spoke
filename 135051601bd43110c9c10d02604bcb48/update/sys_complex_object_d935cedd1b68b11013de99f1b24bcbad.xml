@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD1935cedd8268b1104a1b3d9b0e10e3ad</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>135051601bd43110c9c10d02604bcb48</scope_name>
+        <serialized_content>{"FlowDesigner:FD1935cedd8268b1104a1b3d9b0e10e3ad":{"$COCollectionField":[{"Movie":{"Year":"String","Year.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Year\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"e6953597-6a98-4778-ad93-a57664a8617d\"}"},"imdb_id":"String","imdb_id.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"imdb_id\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"8ed9a123-0dc3-443e-82a5-c336ab78f705\"}"},"Title":"String","Title.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Title\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"3e645f3a-66e2-4907-b6a4-fc1ebd831fd8\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Movies\",\"mandatory\":\"false\",\"child_name\":\"Movie\",\"uiUniqueId\":\"123f8841-2f64-48ee-88ff-45b2198a5d55\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD1935cedd8268b1104a1b3d9b0e10e3ad\",\"child_label\":\"Movie\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"9fd020aa-8d3b-4673-9c27-c285c78d3fa6\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD1935cedd8268b1104a1b3d9b0e10e3ad.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Movies\",\"mandatory\":\"false\",\"child_name\":\"Movie\",\"uiUniqueId\":\"123f8841-2f64-48ee-88ff-45b2198a5d55\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD1935cedd8268b1104a1b3d9b0e10e3ad\",\"child_label\":\"Movie\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"9fd020aa-8d3b-4673-9c27-c285c78d3fa6\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>daniel.draes</sys_created_by>
+        <sys_created_on>2023-08-08 11:42:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d935cedd1b68b11013de99f1b24bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD1935cedd8268b1104a1b3d9b0e10e3ad</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
+        <sys_update_name>sys_complex_object_d935cedd1b68b11013de99f1b24bcbad</sys_update_name>
+        <sys_updated_by>daniel.draes</sys_updated_by>
+        <sys_updated_on>2023-08-08 11:42:20</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>
