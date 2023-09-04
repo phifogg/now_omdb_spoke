@@ -27,11 +27,11 @@
     // v_table.addRow({...})
 
     var title = v_query.getParameter('title');
-	var title_query = v_query.getCondition('title');
-	title_query = title_query.split('LIKE');
-    if (title_query.length>=1) {
-		title = title_query[1];
-	}
+    var title_query = v_query.getCondition('title');
+    title_query = title_query.split('LIKE');
+    if (title_query.length >= 1) {
+        title = title_query[1];
+    }
 
     try {
         var inputs = {};
@@ -45,19 +45,16 @@
         // Note: outputs can only be retrieved when executing synchronously.
         var strMovies = outputs['movies']; // Array.Object
 
-		var return_body = JSON.parse(strMovies);
-		var movies = return_body.Search;
+        var return_body = JSON.parse(strMovies);
+        var movies = return_body.Search;
 
-        gs.info('API Returned: ' + JSON.stringify(movies));
-
-         for (var i = 0; i < movies.length; i++) {
-			gs.info('new movie to add: ' + movies[i].Title);
-             v_table.addRow({
-                 "title": movies[i].Title + '',
-                 "year": movies[i].Year + '',
-                 "imdb_id": movies[i].imdbID + '',
-                 "sys_id": movies[i].imdbID + ''
-             });
+        for (var i = 0; i < movies.length; i++) {
+            v_table.addRow({
+                "title": movies[i].Title + '',
+                "year": movies[i].Year + '',
+                "imdb_id": movies[i].imdbID + '',
+                "sys_id": movies[i].imdbID + ''
+            });
         }
 
 
@@ -74,14 +71,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9c3ae1111b28b11013de99f1b24bcbb5</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>OMDB Movies</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
         <sys_update_name>sys_script_vtable_9c3ae1111b28b11013de99f1b24bcbb5</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
-        <sys_updated_on>2023-08-08 12:23:41</sys_updated_on>
+        <sys_updated_on>2023-08-08 12:38:24</sys_updated_on>
         <table>x_snc_omdb_spoke_st_omdb_movie</table>
     </sys_script_vtable>
 </record_update>
