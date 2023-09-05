@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD966fa59ae1457550fdad6da7ec286810</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>135051601bd43110c9c10d02604bcb48</scope_name>
+        <serialized_content>{"FlowDesigner:FD966fa59ae1457550fdad6da7ec286810":{"Response":"String","Response.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Response\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"4dcf8356-442c-4c78-8638-3bc7b8272f9d\"}"},"totalResults":"String","totalResults.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"totalResults\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"fcee1e83-b807-48ca-a205-fbc29095cd1c\"}"},"Search":[{"$13_Search":{"Type":"String","Type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Type\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"b001810b-92ba-4c26-9f63-53cc2b94b996\"}"},"Year":"String","Year.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Year\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"3f688a68-8514-4950-9987-9b84736fcee0\"}"},"imdbID":"String","imdbID.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"imdbID\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"b44f548c-15ca-4384-b5c0-d9e22a9f1c3d\"}"},"Poster":"String","Poster.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Poster\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\",\"uiUniqueId\":\"710f0b49-c6de-423f-9d86-507fcc2e011e\"}"},"Title":"String","Title.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Title\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"06540cae-00b5-4ac4-bd46-8debd39bd72c\"}"}}}],"Search.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Search\",\"mandatory\":\"false\",\"child_name\":\"Search_object\",\"uiUniqueId\":\"40409124-8da3-429b-b497-aa3831c3a737\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Search_object\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"9b13b6a7-6fe7-4752-a1e3-606e3090d51f\"}"}},"FlowDesigner:FD966fa59ae1457550fdad6da7ec286810.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"uiUniqueId\":\"c17bb0f9-5cdf-4722-a05f-f8d6417c2009\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD966fa59ae1457550fdad6da7ec286810\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>daniel.draes</sys_created_by>
+        <sys_created_on>2023-09-05 09:12:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5a6fa59a1b457550c9c10d02604bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD966fa59ae1457550fdad6da7ec286810</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
+        <sys_update_name>sys_complex_object_5a6fa59a1b457550c9c10d02604bcb10</sys_update_name>
+        <sys_updated_by>daniel.draes</sys_updated_by>
+        <sys_updated_on>2023-09-05 09:12:24</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>
