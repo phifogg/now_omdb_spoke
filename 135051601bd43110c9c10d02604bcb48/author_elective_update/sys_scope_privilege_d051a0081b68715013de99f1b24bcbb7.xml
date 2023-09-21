@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>execute</operation>
+        <source_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-08-04 07:13:29</sys_created_on>
+        <sys_id>d051a0081b68715013de99f1b24bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OMDBMovieHelper</sys_name>
+        <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
+        <sys_update_name>sys_scope_privilege_d051a0081b68715013de99f1b24bcbb7</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-04 07:13:29</sys_updated_on>
+        <target_name>OMDBMovieHelper</target_name>
+        <target_scope display_value="Movie Database">2fc51cd21ba32d10c9c10d02604bcb4e</target_scope>
+        <target_type>sys_script_include</target_type>
+    </sys_scope_privilege>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</application>
+        <file_path/>
+        <instance_id>f8fe9965dbaae450b847ac44d49619e4</instance_id>
+        <instance_name>empddraesdemo</instance_name>
+        <name>sys_scope_privilege_d051a0081b68715013de99f1b24bcbb7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-08-04 07:13:29</sys_created_on><sys_id>d051a0081b68715013de99f1b24bcbb7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>OMDBMovieHelper</sys_name><sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package><sys_policy/><sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope><sys_update_name>sys_scope_privilege_d051a0081b68715013de99f1b24bcbb7</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-08-04 07:13:29</sys_updated_on><target_name>OMDBMovieHelper</target_name><target_scope display_value="Movie Database">2fc51cd21ba32d10c9c10d02604bcb4e</target_scope><target_type>sys_script_include</target_type></sys_scope_privilege></record_update>]]></payload>
+        <payload_hash>-1761987169</payload_hash>
+        <record_name>OMDBMovieHelper</record_name>
+        <reverted_from/>
+        <source>d35051601bd43110c9c10d02604bcb4a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-08-04 07:13:29</sys_created_on>
+        <sys_id>5851a0081b68715013de99f1b24bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189bf64eb9c0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-04 07:13:29</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>9c51a008d8687150969bcd40016d78b8</update_guid>
+        <update_guid_history>9c51a008d8687150969bcd40016d78b8:-1761987169</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>daniel.draes</sys_created_by>
+        <sys_created_on>2023-09-21 07:10:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>75cd361794ac43aeaf06a17c9caedf64</sys_id>
+        <sys_metadata>d051a0081b68715013de99f1b24bcbb7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OMDBMovieHelper</sys_name>
+        <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
+        <sys_scope_delete display_value="">1d1e46190ae84380b57b7de8b254cda4</sys_scope_delete>
+        <sys_update_name>sys_scope_privilege_d051a0081b68715013de99f1b24bcbb7</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_d051a0081b68715013de99f1b24bcbb7">5851a0081b68715013de99f1b24bcbb9</sys_update_version>
+        <sys_updated_by>daniel.draes</sys_updated_by>
+        <sys_updated_on>2023-09-21 07:10:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
