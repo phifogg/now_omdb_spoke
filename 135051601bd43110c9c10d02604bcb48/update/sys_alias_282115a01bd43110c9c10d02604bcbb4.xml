@@ -3,6 +3,7 @@
         <configuration_template display_value="API Key Demo Configuration">711fa567b70333008321e916de11a9cf</configuration_template>
         <connection_type>http_connection</connection_type>
         <id>x_snc_omdb_spoke.OMDb_API</id>
+        <is_internal>false</is_internal>
         <multiple_connections>false</multiple_connections>
         <name>OMDb API</name>
         <parent/>

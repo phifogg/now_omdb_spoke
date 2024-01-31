@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>aae01d601bd43110c9c10d02604bcb9c</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Get By Title</sys_name>
         <sys_overrides/>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_aae01d601bd43110c9c10d02604bcb9c</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
-        <sys_updated_on>2023-09-05 09:42:54</sys_updated_on>
+        <sys_updated_on>2024-01-31 08:09:58</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -430,6 +430,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=1611d1a01bd43110c9c10d02604bcb74"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=1611d1a01bd43110c9c10d02604bcb74"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=1611d1a01bd43110c9c10d02604bcb74^sys_idNOT IN2ba19da01bd43110c9c10d02604bcbf8"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -530,11 +531,11 @@
         <sys_created_on>2023-07-24 13:46:03</sys_created_on>
         <sys_id>aba19da01bd43110c9c10d02604bcbfc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_1611d1a01bd43110c9c10d02604bcb74_sn_auth_token_en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-07-24 13:46:03</sys_updated_on>
         <url/>
@@ -630,18 +631,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=1a40e4841b68715013de99f1b24bcb43"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>1a40e4841b68715013de99f1b24bcb43</id>
-        <sys_created_by>daniel.draes</sys_created_by>
-        <sys_created_on>2023-08-04 07:09:00</sys_created_on>
-        <sys_id>6640e4841b68715013de99f1b24bcb5a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>daniel.draes</sys_updated_by>
-        <sys_updated_on>2023-08-04 07:09:00</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>movie_details</field>
         <id>1a40e4841b68715013de99f1b24bcb43</id>
         <sys_created_by>daniel.draes</sys_created_by>
@@ -653,20 +642,9 @@
         <table>var__m_sys_hub_step_ext_input_1a40e4841b68715013de99f1b24bcb43</table>
         <value>{{step[831b9250-106a-4201-bbeb-9176c5892b10].root}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>1a40e4841b68715013de99f1b24bcb43</id>
-        <sys_created_by>daniel.draes</sys_created_by>
-        <sys_created_on>2023-08-04 07:09:00</sys_created_on>
-        <sys_id>2e40e4841b68715013de99f1b24bcb5a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>daniel.draes</sys_updated_by>
-        <sys_updated_on>2023-08-04 07:09:00</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_1a40e4841b68715013de99f1b24bcb43^id=1a40e4841b68715013de99f1b24bcb43"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=1a40e4841b68715013de99f1b24bcb43"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=1a40e4841b68715013de99f1b24bcb43"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=1a40e4841b68715013de99f1b24bcb43^sys_idNOT INd240e4841b68715013de99f1b24bcb4b"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -850,11 +828,11 @@
         <sys_created_on>2023-08-04 07:30:45</sys_created_on>
         <sys_id>d545208c1b68715013de99f1b24bcba5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Movie Dates</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_1a40e4841b68715013de99f1b24bcb43_movie_dates_en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-08-04 07:30:45</sys_updated_on>
         <url/>
@@ -868,12 +846,11 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <inputs/>
         <label>JSON Parser step</label>
         <order>2</order>
         <outputs/>
         <section/>
-        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <step_type display_value="">502328c387523300f917e55936cb0bf0</step_type>
         <sys_created_by>daniel.draes</sys_created_by>
         <sys_created_on>2023-07-24 13:49:38</sys_created_on>
         <sys_id>c88251241bd43110c9c10d02604bcb56</sys_id>
@@ -895,7 +872,7 @@
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-07-24 13:49:38</sys_updated_on>
         <value>{"Title":"Indiana Jones and the Raiders of the Lost Ark","Year":"1981","Rated":"PG","Released":"12 Jun 1981","Runtime":"115 min","Genre":"Action, Adventure","Director":"Steven Spielberg","Writer":"Lawrence Kasdan, George Lucas, Philip Kaufman","Actors":"Harrison Ford, Karen Allen, Paul Freeman","Plot":"In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before the Nazis can obtain its awesome powers.","Language":"English, German, Hebrew, Spanish, Arabic, Nepali","Country":"United States","Awards":"Won 4 Oscars. 38 wins &amp; 24 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BNTU2ODkyY2MtMjU1NC00NjE1LWEzYjgtMWQ3MzRhMTE0NDc0XkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.4/10"},{"Source":"Rotten Tomatoes","Value":"93%"},{"Source":"Metacritic","Value":"85/100"}],"Metascore":"85","imdbRating":"8.4","imdbVotes":"997,325","imdbID":"tt0082971","Type":"movie","DVD":"13 May 2008","BoxOffice":"$248,159,971","Production":"N/A","Website":"N/A","Response":"True"}</value>
-        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+        <variable display_value="">d335ac0787523300f917e55936cb0b1d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -909,46 +886,10 @@
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-07-24 13:49:38</sys_updated_on>
         <value>{"name":"root","children":[{"name":"Title","children":[],"type":"string","jpath":"$.Title","previewValue":"Indiana Jones and the Raiders of the Lost Ark"},{"name":"Year","children":[],"type":"string","jpath":"$.Year","previewValue":"1981"},{"name":"Rated","children":[],"type":"string","jpath":"$.Rated","previewValue":"PG"},{"name":"Released","children":[],"type":"string","jpath":"$.Released","previewValue":"12 Jun 1981"},{"name":"Runtime","children":[],"type":"string","jpath":"$.Runtime","previewValue":"115 min"},{"name":"Genre","children":[],"type":"string","jpath":"$.Genre","previewValue":"Action, Adventure"},{"name":"Director","children":[],"type":"string","jpath":"$.Director","previewValue":"Steven Spielberg"},{"name":"Writer","children":[],"type":"string","jpath":"$.Writer","previewValue":"Lawrence Kasdan, George Lucas, Philip Kaufman"},{"name":"Actors","children":[],"type":"string","jpath":"$.Actors","previewValue":"Harrison Ford, Karen Allen, Paul Freeman"},{"name":"Plot","children":[],"type":"string","jpath":"$.Plot","previewValue":"In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before the Nazis can obtain its awesome powers."},{"name":"Language","children":[],"type":"string","jpath":"$.Language","previewValue":"English, German, Hebrew, Spanish, Arabic, Nepali"},{"name":"Country","children":[],"type":"string","jpath":"$.Country","previewValue":"United States"},{"name":"Awards","children":[],"type":"string","jpath":"$.Awards","previewValue":"Won 4 Oscars. 38 wins &amp; 24 nominations total"},{"name":"Poster","children":[],"type":"string","jpath":"$.Poster","previewValue":"https://m.media-amazon.com/images/M/MV5BNTU2ODkyY2MtMjU1NC00NjE1LWEzYjgtMWQ3MzRhMTE0NDc0XkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_SX300.jpg"},{"name":"Ratings","children":[{"name":"Ratings_object","children":[{"name":"Source","children":[],"type":"string","jpath":"$.Ratings[*].Source","previewValue":"Internet Movie Database"},{"name":"Value","children":[],"type":"string","jpath":"$.Ratings[*].Value","previewValue":"8.4/10"}],"type":"object","jpath":"$.Ratings[*]","previewValue":""}],"type":"array.object","jpath":"$.Ratings[*]","previewValue":""},{"name":"Metascore","children":[],"type":"string","jpath":"$.Metascore","previewValue":"85"},{"name":"imdbRating","children":[],"type":"string","jpath":"$.imdbRating","previewValue":"8.4"},{"name":"imdbVotes","children":[],"type":"string","jpath":"$.imdbVotes","previewValue":"997,325"},{"name":"imdbID","children":[],"type":"string","jpath":"$.imdbID","previewValue":"tt0082971"},{"name":"Type","children":[],"type":"string","jpath":"$.Type","previewValue":"movie"},{"name":"DVD","children":[],"type":"string","jpath":"$.DVD","previewValue":"13 May 2008"},{"name":"BoxOffice","children":[],"type":"string","jpath":"$.BoxOffice","previewValue":"$248,159,971"},{"name":"Production","children":[],"type":"string","jpath":"$.Production","previewValue":"N/A"},{"name":"Website","children":[],"type":"string","jpath":"$.Website","previewValue":"N/A"},{"name":"Response","children":[],"type":"string","jpath":"$.Response","previewValue":"True"}],"type":"object","jpath":"$","previewValue":""}</value>
-        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+        <variable display_value="">4674240787523300f917e55936cb0b0e</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_c88251241bd43110c9c10d02604bcb56^id=c88251241bd43110c9c10d02604bcb56"/>
-    <sys_element_mapping action="delete_multiple" query="id=c88251241bd43110c9c10d02604bcb56"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>sample_payload</field>
-        <id>c88251241bd43110c9c10d02604bcb56</id>
-        <sys_created_by>daniel.draes</sys_created_by>
-        <sys_created_on>2023-07-24 13:49:38</sys_created_on>
-        <sys_id>1c8251241bd43110c9c10d02604bcb64</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>daniel.draes</sys_updated_by>
-        <sys_updated_on>2023-07-24 13:49:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>source_data</field>
-        <id>c88251241bd43110c9c10d02604bcb56</id>
-        <sys_created_by>daniel.draes</sys_created_by>
-        <sys_created_on>2023-07-24 13:49:38</sys_created_on>
-        <sys_id>588251241bd43110c9c10d02604bcb64</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>daniel.draes</sys_updated_by>
-        <sys_updated_on>2023-07-24 13:49:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value>{{step[723ec790-073e-45cd-8052-f64bd9674d24].response_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>target_schema</field>
-        <id>c88251241bd43110c9c10d02604bcb56</id>
-        <sys_created_by>daniel.draes</sys_created_by>
-        <sys_created_on>2023-07-24 13:49:38</sys_created_on>
-        <sys_id>948251241bd43110c9c10d02604bcb64</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>daniel.draes</sys_updated_by>
-        <sys_updated_on>2023-07-24 13:49:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value/>
-    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=c88251241bd43110c9c10d02604bcb56"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=c88251241bd43110c9c10d02604bcb56"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=c88251241bd43110c9c10d02604bcb56^sys_idNOT INc08251241bd43110c9c10d02604bcb5e"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -1049,11 +990,11 @@
         <sys_created_on>2023-07-24 13:49:38</sys_created_on>
         <sys_id>888251241bd43110c9c10d02604bcb61</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>root</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_c88251241bd43110c9c10d02604bcb56_root_en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-07-24 13:49:38</sys_updated_on>
         <url/>
@@ -1606,11 +1547,11 @@
         <sys_created_on>2023-07-24 13:43:30</sys_created_on>
         <sys_id>1a11d1a01bd43110c9c10d02604bcb71</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Title</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_aae01d601bd43110c9c10d02604bcb9c_title_en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-07-24 13:43:30</sys_updated_on>
         <url/>
@@ -1631,11 +1572,11 @@
         <sys_created_on>2023-09-05 09:42:42</sys_created_on>
         <sys_id>3156f9d21b857550c9c10d02604bcba8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>HTTP Status</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_aae01d601bd43110c9c10d02604bcb9c_http_status_en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-09-05 09:42:42</sys_updated_on>
         <url/>
@@ -1654,11 +1595,11 @@
         <sys_created_on>2023-07-24 13:46:03</sys_created_on>
         <sys_id>33a1dda01bd43110c9c10d02604bcb17</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_aae01d601bd43110c9c10d02604bcb9c___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-07-24 13:46:03</sys_updated_on>
         <url/>
@@ -1677,11 +1618,11 @@
         <sys_created_on>2023-08-04 07:30:46</sys_created_on>
         <sys_id>9945208c1b68715013de99f1b24bcbf9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Movie Dates</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_aae01d601bd43110c9c10d02604bcb9c_movie_dates_en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-08-04 07:30:46</sys_updated_on>
         <url/>
@@ -1700,11 +1641,11 @@
         <sys_created_on>2023-07-24 13:51:28</sys_created_on>
         <sys_id>cbe259241bd43110c9c10d02604bcb11</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Movie Details</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_aae01d601bd43110c9c10d02604bcb9c_movie_details_en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-07-24 13:51:28</sys_updated_on>
         <url/>
@@ -1723,11 +1664,11 @@
         <sys_created_on>2023-07-24 13:46:03</sys_created_on>
         <sys_id>fba1dda01bd43110c9c10d02604bcb10</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_aae01d601bd43110c9c10d02604bcb9c___action_status___en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-07-24 13:46:03</sys_updated_on>
         <url/>
@@ -2164,6 +2105,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=505491a41bd43110c9c10d02604bcb75"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=505491a41bd43110c9c10d02604bcb75"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=505491a41bd43110c9c10d02604bcb75^sys_idNOT INdc5491a41bd43110c9c10d02604bcb7c"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -2264,11 +2206,11 @@
         <sys_created_on>2023-07-24 13:57:34</sys_created_on>
         <sys_id>5c5491a41bd43110c9c10d02604bcb80</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_505491a41bd43110c9c10d02604bcb75_sn_auth_token_en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-07-24 13:57:34</sys_updated_on>
         <url/>
@@ -2364,18 +2306,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=7436a8cc1b68715013de99f1b24bcbb0"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>7436a8cc1b68715013de99f1b24bcbb0</id>
-        <sys_created_by>daniel.draes</sys_created_by>
-        <sys_created_on>2023-08-04 07:34:49</sys_created_on>
-        <sys_id>7036a8cc1b68715013de99f1b24bcbc1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>daniel.draes</sys_updated_by>
-        <sys_updated_on>2023-08-04 07:34:49</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>movie_details</field>
         <id>7436a8cc1b68715013de99f1b24bcbb0</id>
         <sys_created_by>daniel.draes</sys_created_by>
@@ -2387,20 +2317,9 @@
         <table>var__m_sys_hub_step_ext_input_7436a8cc1b68715013de99f1b24bcbb0</table>
         <value>{{step[831b9250-106a-4201-bbeb-9176c5892b10].root}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>7436a8cc1b68715013de99f1b24bcbb0</id>
-        <sys_created_by>daniel.draes</sys_created_by>
-        <sys_created_on>2023-08-04 07:34:49</sys_created_on>
-        <sys_id>3436a8cc1b68715013de99f1b24bcbc1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>daniel.draes</sys_updated_by>
-        <sys_updated_on>2023-08-04 07:34:49</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_7436a8cc1b68715013de99f1b24bcbb0^id=7436a8cc1b68715013de99f1b24bcbb0"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=7436a8cc1b68715013de99f1b24bcbb0"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=7436a8cc1b68715013de99f1b24bcbb0"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=7436a8cc1b68715013de99f1b24bcbb0^sys_idNOT IN3c36a8cc1b68715013de99f1b24bcbb3"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -2584,11 +2503,11 @@
         <sys_created_on>2023-08-04 07:34:49</sys_created_on>
         <sys_id>3836a8cc1b68715013de99f1b24bcbbd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Movie Dates</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_7436a8cc1b68715013de99f1b24bcbb0_movie_dates_en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-08-04 07:34:49</sys_updated_on>
         <url/>
@@ -2602,12 +2521,11 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <inputs/>
         <label>JSON Parser step</label>
         <order>2</order>
         <outputs/>
         <section/>
-        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <step_type display_value="">502328c387523300f917e55936cb0bf0</step_type>
         <sys_created_by>daniel.draes</sys_created_by>
         <sys_created_on>2023-07-24 13:57:34</sys_created_on>
         <sys_id>d45491a41bd43110c9c10d02604bcb91</sys_id>
@@ -2629,7 +2547,7 @@
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-07-24 13:57:34</sys_updated_on>
         <value>{"Title":"Indiana Jones and the Raiders of the Lost Ark","Year":"1981","Rated":"PG","Released":"12 Jun 1981","Runtime":"115 min","Genre":"Action, Adventure","Director":"Steven Spielberg","Writer":"Lawrence Kasdan, George Lucas, Philip Kaufman","Actors":"Harrison Ford, Karen Allen, Paul Freeman","Plot":"In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before the Nazis can obtain its awesome powers.","Language":"English, German, Hebrew, Spanish, Arabic, Nepali","Country":"United States","Awards":"Won 4 Oscars. 38 wins &amp; 24 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BNTU2ODkyY2MtMjU1NC00NjE1LWEzYjgtMWQ3MzRhMTE0NDc0XkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.4/10"},{"Source":"Rotten Tomatoes","Value":"93%"},{"Source":"Metacritic","Value":"85/100"}],"Metascore":"85","imdbRating":"8.4","imdbVotes":"997,325","imdbID":"tt0082971","Type":"movie","DVD":"13 May 2008","BoxOffice":"$248,159,971","Production":"N/A","Website":"N/A","Response":"True"}</value>
-        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+        <variable display_value="">d335ac0787523300f917e55936cb0b1d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -2643,46 +2561,10 @@
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-07-24 13:57:34</sys_updated_on>
         <value>{"name":"root","children":[{"name":"Title","children":[],"type":"string","jpath":"$.Title","previewValue":"Indiana Jones and the Raiders of the Lost Ark"},{"name":"Year","children":[],"type":"string","jpath":"$.Year","previewValue":"1981"},{"name":"Rated","children":[],"type":"string","jpath":"$.Rated","previewValue":"PG"},{"name":"Released","children":[],"type":"string","jpath":"$.Released","previewValue":"12 Jun 1981"},{"name":"Runtime","children":[],"type":"string","jpath":"$.Runtime","previewValue":"115 min"},{"name":"Genre","children":[],"type":"string","jpath":"$.Genre","previewValue":"Action, Adventure"},{"name":"Director","children":[],"type":"string","jpath":"$.Director","previewValue":"Steven Spielberg"},{"name":"Writer","children":[],"type":"string","jpath":"$.Writer","previewValue":"Lawrence Kasdan, George Lucas, Philip Kaufman"},{"name":"Actors","children":[],"type":"string","jpath":"$.Actors","previewValue":"Harrison Ford, Karen Allen, Paul Freeman"},{"name":"Plot","children":[],"type":"string","jpath":"$.Plot","previewValue":"In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before the Nazis can obtain its awesome powers."},{"name":"Language","children":[],"type":"string","jpath":"$.Language","previewValue":"English, German, Hebrew, Spanish, Arabic, Nepali"},{"name":"Country","children":[],"type":"string","jpath":"$.Country","previewValue":"United States"},{"name":"Awards","children":[],"type":"string","jpath":"$.Awards","previewValue":"Won 4 Oscars. 38 wins &amp; 24 nominations total"},{"name":"Poster","children":[],"type":"string","jpath":"$.Poster","previewValue":"https://m.media-amazon.com/images/M/MV5BNTU2ODkyY2MtMjU1NC00NjE1LWEzYjgtMWQ3MzRhMTE0NDc0XkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_SX300.jpg"},{"name":"Ratings","children":[{"name":"Ratings_object","children":[{"name":"Source","children":[],"type":"string","jpath":"$.Ratings[*].Source","previewValue":"Internet Movie Database"},{"name":"Value","children":[],"type":"string","jpath":"$.Ratings[*].Value","previewValue":"8.4/10"}],"type":"object","jpath":"$.Ratings[*]","previewValue":""}],"type":"array.object","jpath":"$.Ratings[*]","previewValue":""},{"name":"Metascore","children":[],"type":"string","jpath":"$.Metascore","previewValue":"85"},{"name":"imdbRating","children":[],"type":"string","jpath":"$.imdbRating","previewValue":"8.4"},{"name":"imdbVotes","children":[],"type":"string","jpath":"$.imdbVotes","previewValue":"997,325"},{"name":"imdbID","children":[],"type":"string","jpath":"$.imdbID","previewValue":"tt0082971"},{"name":"Type","children":[],"type":"string","jpath":"$.Type","previewValue":"movie"},{"name":"DVD","children":[],"type":"string","jpath":"$.DVD","previewValue":"13 May 2008"},{"name":"BoxOffice","children":[],"type":"string","jpath":"$.BoxOffice","previewValue":"$248,159,971"},{"name":"Production","children":[],"type":"string","jpath":"$.Production","previewValue":"N/A"},{"name":"Website","children":[],"type":"string","jpath":"$.Website","previewValue":"N/A"},{"name":"Response","children":[],"type":"string","jpath":"$.Response","previewValue":"True"}],"type":"object","jpath":"$","previewValue":""}</value>
-        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+        <variable display_value="">4674240787523300f917e55936cb0b0e</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_d45491a41bd43110c9c10d02604bcb91^id=d45491a41bd43110c9c10d02604bcb91"/>
-    <sys_element_mapping action="delete_multiple" query="id=d45491a41bd43110c9c10d02604bcb91"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>sample_payload</field>
-        <id>d45491a41bd43110c9c10d02604bcb91</id>
-        <sys_created_by>daniel.draes</sys_created_by>
-        <sys_created_on>2023-07-24 13:57:34</sys_created_on>
-        <sys_id>d05491a41bd43110c9c10d02604bcb9d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>daniel.draes</sys_updated_by>
-        <sys_updated_on>2023-07-24 13:57:34</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>source_data</field>
-        <id>d45491a41bd43110c9c10d02604bcb91</id>
-        <sys_created_by>daniel.draes</sys_created_by>
-        <sys_created_on>2023-07-24 13:57:34</sys_created_on>
-        <sys_id>105491a41bd43110c9c10d02604bcb9d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>daniel.draes</sys_updated_by>
-        <sys_updated_on>2023-07-24 13:57:34</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value>{{step[723ec790-073e-45cd-8052-f64bd9674d24].response_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>target_schema</field>
-        <id>d45491a41bd43110c9c10d02604bcb91</id>
-        <sys_created_by>daniel.draes</sys_created_by>
-        <sys_created_on>2023-07-24 13:57:34</sys_created_on>
-        <sys_id>5c5491a41bd43110c9c10d02604bcb9c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>daniel.draes</sys_updated_by>
-        <sys_updated_on>2023-07-24 13:57:34</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value/>
-    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=d45491a41bd43110c9c10d02604bcb91"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=d45491a41bd43110c9c10d02604bcb91"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=d45491a41bd43110c9c10d02604bcb91^sys_idNOT INd85491a41bd43110c9c10d02604bcb96"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -2783,11 +2665,11 @@
         <sys_created_on>2023-07-24 13:57:34</sys_created_on>
         <sys_id>905491a41bd43110c9c10d02604bcb9a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>root</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_d45491a41bd43110c9c10d02604bcb91_root_en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-07-24 13:57:34</sys_updated_on>
         <url/>
@@ -3340,11 +3222,11 @@
         <sys_created_on>2023-07-24 13:57:34</sys_created_on>
         <sys_id>1c5491a41bd43110c9c10d02604bcb72</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Title</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d85491a41bd43110c9c10d02604bcb6a_title_en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-07-24 13:57:34</sys_updated_on>
         <url/>
@@ -3365,11 +3247,11 @@
         <sys_created_on>2023-07-24 13:57:35</sys_created_on>
         <sys_id>605491a41bd43110c9c10d02604bcba7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Movie Details</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d85491a41bd43110c9c10d02604bcb6a_movie_details_en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-07-24 13:57:35</sys_updated_on>
         <url/>
@@ -3388,11 +3270,11 @@
         <sys_created_on>2023-08-04 07:34:50</sys_created_on>
         <sys_id>7836a8cc1b68715013de99f1b24bcbd6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Movie Dates</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d85491a41bd43110c9c10d02604bcb6a_movie_dates_en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-08-04 07:34:50</sys_updated_on>
         <url/>
@@ -3411,11 +3293,11 @@
         <sys_created_on>2023-07-24 13:57:35</sys_created_on>
         <sys_id>a05491a41bd43110c9c10d02604bcbab</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d85491a41bd43110c9c10d02604bcb6a___action_status___en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-07-24 13:57:35</sys_updated_on>
         <url/>
@@ -3434,11 +3316,11 @@
         <sys_created_on>2023-07-24 13:57:35</sys_created_on>
         <sys_id>ac5491a41bd43110c9c10d02604bcbb0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d85491a41bd43110c9c10d02604bcb6a___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-07-24 13:57:35</sys_updated_on>
         <url/>
@@ -3457,11 +3339,11 @@
         <sys_created_on>2023-09-05 09:42:53</sys_created_on>
         <sys_id>b066bdd21b857550c9c10d02604bcb2f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>HTTP Status</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d85491a41bd43110c9c10d02604bcb6a_http_status_en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-09-05 09:42:53</sys_updated_on>
         <url/>

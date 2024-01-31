@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>title</element>
-            <list_id display_value="x_snc_omdb_spoke_st_omdb_movie" element="NULL" name="x_snc_omdb_spoke_st_omdb_movie" parent="NULL" relationship="NULL" sys_domain="global" view="00abf051b9103110d0adbb64e3a1e94f">2ba34e17db293910cfacbe65f3961910</list_id>
+            <list_id display_value="x_snc_omdb_spoke_st_omdb_movie" element="NULL" name="x_snc_omdb_spoke_st_omdb_movie" parent="NULL" relationship="NULL" sys_domain="global" view="df36f351972331108c10bdc3f153af92">2ba34e17db293910cfacbe65f3961910</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>year</element>
-            <list_id display_value="x_snc_omdb_spoke_st_omdb_movie" element="NULL" name="x_snc_omdb_spoke_st_omdb_movie" parent="NULL" relationship="NULL" sys_domain="global" view="00abf051b9103110d0adbb64e3a1e94f">2ba34e17db293910cfacbe65f3961910</list_id>
+            <list_id display_value="x_snc_omdb_spoke_st_omdb_movie" element="NULL" name="x_snc_omdb_spoke_st_omdb_movie" parent="NULL" relationship="NULL" sys_domain="global" view="df36f351972331108c10bdc3f153af92">2ba34e17db293910cfacbe65f3961910</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -55,7 +55,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-10-03 09:46:17</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">00abf051b9103110d0adbb64e3a1e94f</view>
+            <view display_value="Reference List" name="sys_ref_list">df36f351972331108c10bdc3f153af92</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="movies" label="movies" language="en" table="var__m_sys_hub_action_output_869461591be4b11013de99f1b24bcbf5">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>movies</element>
+            <help/>
+            <hint/>
+            <label>movies</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_869461591be4b11013de99f1b24bcbf5</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>daniel.draes</sys_created_by>
+            <sys_created_on>2023-08-08 09:19:51</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>movies</sys_name>
+            <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_869461591be4b11013de99f1b24bcbf5_movies_en</sys_update_name>
+            <sys_updated_by>daniel.draes</sys_updated_by>
+            <sys_updated_on>2023-08-08 12:06:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -27,15 +27,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a2232d951be4b11013de99f1b24bcb86</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Search By Title</sys_name>
         <sys_overrides/>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_a2232d951be4b11013de99f1b24bcb86</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-21 08:14:39</sys_updated_on>
+        <sys_updated_by>daniel.draes</sys_updated_by>
+        <sys_updated_on>2024-01-31 08:09:51</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -153,12 +153,11 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <inputs/>
         <label>JSON Parser step</label>
         <order>2</order>
         <outputs/>
         <section/>
-        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <step_type display_value="">502328c387523300f917e55936cb0bf0</step_type>
         <sys_created_by>daniel.draes</sys_created_by>
         <sys_created_on>2023-08-08 09:13:36</sys_created_on>
         <sys_id>3a232d951be4b11013de99f1b24bcbd9</sys_id>
@@ -180,7 +179,7 @@
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-08-08 09:17:09</sys_updated_on>
         <value>{"Search":[{"Title":"Star Wars: Episode IV - A New Hope","Year":"1977","imdbID":"tt0076759","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BOTA5NjhiOTAtZWM0ZC00MWNhLThiMzEtZDFkOTk2OTU1ZDJkXkEyXkFqcGdeQXVyMTA4NDI1NTQx._V1_SX300.jpg"},{"Title":"Star Wars: Episode V - The Empire Strikes Back","Year":"1980","imdbID":"tt0080684","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"},{"Title":"Star Wars: Episode VI - Return of the Jedi","Year":"1983","imdbID":"tt0086190","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"},{"Title":"Star Wars: Episode VII - The Force Awakens","Year":"2015","imdbID":"tt2488496","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_SX300.jpg"},{"Title":"Star Wars: Episode I - The Phantom Menace","Year":"1999","imdbID":"tt0120915","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BYTRhNjcwNWQtMGJmMi00NmQyLWE2YzItODVmMTdjNWI0ZDA2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"},{"Title":"Star Wars: Episode III - Revenge of the Sith","Year":"2005","imdbID":"tt0121766","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BNTc4MTc3NTQ5OF5BMl5BanBnXkFtZTcwOTg0NjI4NA@@._V1_SX300.jpg"},{"Title":"Star Wars: Episode II - Attack of the Clones","Year":"2002","imdbID":"tt0121765","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BMDAzM2M0Y2UtZjRmZi00MzVlLTg4MjEtOTE3NzU5ZDVlMTU5XkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg"},{"Title":"Rogue One: A Star Wars Story","Year":"2016","imdbID":"tt3748528","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BMjEwMzMxODIzOV5BMl5BanBnXkFtZTgwNzg3OTAzMDI@._V1_SX300.jpg"},{"Title":"Star Wars: Episode VIII - The Last Jedi","Year":"2017","imdbID":"tt2527336","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_SX300.jpg"},{"Title":"Star Wars: Episode IX - The Rise of Skywalker","Year":"2019","imdbID":"tt2527338","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_SX300.jpg"}],"totalResults":"804","Response":"True"}</value>
-        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+        <variable display_value="">d335ac0787523300f917e55936cb0b1d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -194,46 +193,9 @@
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-08-08 09:17:09</sys_updated_on>
         <value>{"name":"root","children":[{"name":"Search","children":[{"name":"Search_object","children":[{"name":"Title","children":[],"type":"string","jpath":"$.Search[*].Title","previewValue":"Star Wars: Episode IV - A New Hope"},{"name":"Year","children":[],"type":"string","jpath":"$.Search[*].Year","previewValue":"1977"},{"name":"imdbID","children":[],"type":"string","jpath":"$.Search[*].imdbID","previewValue":"tt0076759"},{"name":"Type","children":[],"type":"string","jpath":"$.Search[*].Type","previewValue":"movie"},{"name":"Poster","children":[],"type":"string","jpath":"$.Search[*].Poster","previewValue":"https://m.media-amazon.com/images/M/MV5BOTA5NjhiOTAtZWM0ZC00MWNhLThiMzEtZDFkOTk2OTU1ZDJkXkEyXkFqcGdeQXVyMTA4NDI1NTQx._V1_SX300.jpg"}],"type":"object","jpath":"$.Search[*]","previewValue":""}],"type":"array.object","jpath":"$.Search[*]","previewValue":""},{"name":"totalResults","children":[],"type":"string","jpath":"$.totalResults","previewValue":"804"},{"name":"Response","children":[],"type":"string","jpath":"$.Response","previewValue":"True"}],"type":"object","jpath":"$","previewValue":""}</value>
-        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+        <variable display_value="">4674240787523300f917e55936cb0b0e</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_3a232d951be4b11013de99f1b24bcbd9^id=3a232d951be4b11013de99f1b24bcbd9"/>
-    <sys_element_mapping action="delete_multiple" query="id=3a232d951be4b11013de99f1b24bcbd9"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>sample_payload</field>
-        <id>3a232d951be4b11013de99f1b24bcbd9</id>
-        <sys_created_by>daniel.draes</sys_created_by>
-        <sys_created_on>2023-08-08 09:13:37</sys_created_on>
-        <sys_id>76232d951be4b11013de99f1b24bcbe6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>daniel.draes</sys_updated_by>
-        <sys_updated_on>2023-08-08 09:13:37</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>source_data</field>
-        <id>3a232d951be4b11013de99f1b24bcbd9</id>
-        <sys_created_by>daniel.draes</sys_created_by>
-        <sys_created_on>2023-08-08 09:13:36</sys_created_on>
-        <sys_id>b2232d951be4b11013de99f1b24bcbe6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>daniel.draes</sys_updated_by>
-        <sys_updated_on>2023-08-08 09:13:36</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value>{{step[723ec790-073e-45cd-8052-f64bd9674d24].response_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>target_schema</field>
-        <id>3a232d951be4b11013de99f1b24bcbd9</id>
-        <sys_created_by>daniel.draes</sys_created_by>
-        <sys_created_on>2023-08-08 09:13:36</sys_created_on>
-        <sys_id>fe232d951be4b11013de99f1b24bcbe5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>daniel.draes</sys_updated_by>
-        <sys_updated_on>2023-08-08 09:13:36</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value/>
-    </sys_element_mapping>
     <sys_translated_text action="delete_multiple" query="documentkey=3a232d951be4b11013de99f1b24bcbd9"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=3a232d951be4b11013de99f1b24bcbd9"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=3a232d951be4b11013de99f1b24bcbd9^sys_idNOT IN3e232d951be4b11013de99f1b24bcbdf"/>
@@ -335,11 +297,11 @@
         <sys_created_on>2023-08-08 09:13:36</sys_created_on>
         <sys_id>f2232d951be4b11013de99f1b24bcbe3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>root</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3a232d951be4b11013de99f1b24bcbd9_root_en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-08-08 09:13:36</sys_updated_on>
         <url/>
@@ -731,11 +693,11 @@
         <sys_created_on>2023-08-08 09:13:36</sys_created_on>
         <sys_id>fa232d951be4b11013de99f1b24bcbc8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_f6232d951be4b11013de99f1b24bcbbc_sn_auth_token_en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-08-08 09:13:36</sys_updated_on>
         <url/>
@@ -1114,11 +1076,11 @@
         <sys_created_on>2023-08-08 09:13:36</sys_created_on>
         <sys_id>7e232d951be4b11013de99f1b24bcbb9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Title</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_a2232d951be4b11013de99f1b24bcb86_title_en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-08-08 09:13:36</sys_updated_on>
         <url/>
@@ -1139,11 +1101,11 @@
         <sys_created_on>2023-08-08 09:17:32</sys_created_on>
         <sys_id>1c14e1191be4b11013de99f1b24bcbf3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a2232d951be4b11013de99f1b24bcb86___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-08-08 09:17:32</sys_updated_on>
         <url/>
@@ -1162,11 +1124,11 @@
         <sys_created_on>2023-08-08 09:17:10</sys_created_on>
         <sys_id>47f361191be4b11013de99f1b24bcbb3</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>movies</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a2232d951be4b11013de99f1b24bcb86_movies_en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-08-08 12:05:02</sys_updated_on>
         <url/>
@@ -1185,11 +1147,11 @@
         <sys_created_on>2023-08-08 12:06:03</sys_created_on>
         <sys_id>f8aa0ad51ba8b11013de99f1b24bcbf4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_a2232d951be4b11013de99f1b24bcb86___action_status___en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-08-08 12:06:03</sys_updated_on>
         <url/>
@@ -1339,12 +1301,11 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <inputs/>
         <label>JSON Parser step</label>
         <order>2</order>
         <outputs/>
         <section/>
-        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <step_type display_value="">502328c387523300f917e55936cb0bf0</step_type>
         <sys_created_by>daniel.draes</sys_created_by>
         <sys_created_on>2023-08-08 09:19:50</sys_created_on>
         <sys_id>8294a1591be4b11013de99f1b24bcb19</sys_id>
@@ -1366,7 +1327,7 @@
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-08-08 09:19:50</sys_updated_on>
         <value>{"name":"root","children":[{"name":"Search","children":[{"name":"Search_object","children":[{"name":"Title","children":[],"type":"string","jpath":"$.Search[*].Title","previewValue":"Star Wars: Episode IV - A New Hope"},{"name":"Year","children":[],"type":"string","jpath":"$.Search[*].Year","previewValue":"1977"},{"name":"imdbID","children":[],"type":"string","jpath":"$.Search[*].imdbID","previewValue":"tt0076759"},{"name":"Type","children":[],"type":"string","jpath":"$.Search[*].Type","previewValue":"movie"},{"name":"Poster","children":[],"type":"string","jpath":"$.Search[*].Poster","previewValue":"https://m.media-amazon.com/images/M/MV5BOTA5NjhiOTAtZWM0ZC00MWNhLThiMzEtZDFkOTk2OTU1ZDJkXkEyXkFqcGdeQXVyMTA4NDI1NTQx._V1_SX300.jpg"}],"type":"object","jpath":"$.Search[*]","previewValue":""}],"type":"array.object","jpath":"$.Search[*]","previewValue":""},{"name":"totalResults","children":[],"type":"string","jpath":"$.totalResults","previewValue":"804"},{"name":"Response","children":[],"type":"string","jpath":"$.Response","previewValue":"True"}],"type":"object","jpath":"$","previewValue":""}</value>
-        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+        <variable display_value="">4674240787523300f917e55936cb0b0e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1380,46 +1341,9 @@
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-08-08 09:19:50</sys_updated_on>
         <value>{"Search":[{"Title":"Star Wars: Episode IV - A New Hope","Year":"1977","imdbID":"tt0076759","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BOTA5NjhiOTAtZWM0ZC00MWNhLThiMzEtZDFkOTk2OTU1ZDJkXkEyXkFqcGdeQXVyMTA4NDI1NTQx._V1_SX300.jpg"},{"Title":"Star Wars: Episode V - The Empire Strikes Back","Year":"1980","imdbID":"tt0080684","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"},{"Title":"Star Wars: Episode VI - Return of the Jedi","Year":"1983","imdbID":"tt0086190","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"},{"Title":"Star Wars: Episode VII - The Force Awakens","Year":"2015","imdbID":"tt2488496","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_SX300.jpg"},{"Title":"Star Wars: Episode I - The Phantom Menace","Year":"1999","imdbID":"tt0120915","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BYTRhNjcwNWQtMGJmMi00NmQyLWE2YzItODVmMTdjNWI0ZDA2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"},{"Title":"Star Wars: Episode III - Revenge of the Sith","Year":"2005","imdbID":"tt0121766","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BNTc4MTc3NTQ5OF5BMl5BanBnXkFtZTcwOTg0NjI4NA@@._V1_SX300.jpg"},{"Title":"Star Wars: Episode II - Attack of the Clones","Year":"2002","imdbID":"tt0121765","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BMDAzM2M0Y2UtZjRmZi00MzVlLTg4MjEtOTE3NzU5ZDVlMTU5XkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg"},{"Title":"Rogue One: A Star Wars Story","Year":"2016","imdbID":"tt3748528","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BMjEwMzMxODIzOV5BMl5BanBnXkFtZTgwNzg3OTAzMDI@._V1_SX300.jpg"},{"Title":"Star Wars: Episode VIII - The Last Jedi","Year":"2017","imdbID":"tt2527336","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_SX300.jpg"},{"Title":"Star Wars: Episode IX - The Rise of Skywalker","Year":"2019","imdbID":"tt2527338","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_SX300.jpg"}],"totalResults":"804","Response":"True"}</value>
-        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+        <variable display_value="">d335ac0787523300f917e55936cb0b1d</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_8294a1591be4b11013de99f1b24bcb19^id=8294a1591be4b11013de99f1b24bcb19"/>
-    <sys_element_mapping action="delete_multiple" query="id=8294a1591be4b11013de99f1b24bcb19"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>sample_payload</field>
-        <id>8294a1591be4b11013de99f1b24bcb19</id>
-        <sys_created_by>daniel.draes</sys_created_by>
-        <sys_created_on>2023-08-08 09:19:50</sys_created_on>
-        <sys_id>8a94a1591be4b11013de99f1b24bcb24</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>daniel.draes</sys_updated_by>
-        <sys_updated_on>2023-08-08 09:19:50</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>source_data</field>
-        <id>8294a1591be4b11013de99f1b24bcb19</id>
-        <sys_created_by>daniel.draes</sys_created_by>
-        <sys_created_on>2023-08-08 09:19:50</sys_created_on>
-        <sys_id>c694a1591be4b11013de99f1b24bcb24</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>daniel.draes</sys_updated_by>
-        <sys_updated_on>2023-08-08 09:19:50</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value>{{step[723ec790-073e-45cd-8052-f64bd9674d24].response_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>target_schema</field>
-        <id>8294a1591be4b11013de99f1b24bcb19</id>
-        <sys_created_by>daniel.draes</sys_created_by>
-        <sys_created_on>2023-08-08 09:19:50</sys_created_on>
-        <sys_id>0694a1591be4b11013de99f1b24bcb24</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>daniel.draes</sys_updated_by>
-        <sys_updated_on>2023-08-08 09:19:50</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
-        <value/>
-    </sys_element_mapping>
     <sys_translated_text action="delete_multiple" query="documentkey=8294a1591be4b11013de99f1b24bcb19"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=8294a1591be4b11013de99f1b24bcb19"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=8294a1591be4b11013de99f1b24bcb19^sys_idNOT IN8694a1591be4b11013de99f1b24bcb1e"/>
@@ -1521,11 +1445,11 @@
         <sys_created_on>2023-08-08 09:19:50</sys_created_on>
         <sys_id>4e94a1591be4b11013de99f1b24bcb21</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>root</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_8294a1591be4b11013de99f1b24bcb19_root_en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-08-08 09:19:50</sys_updated_on>
         <url/>
@@ -1917,11 +1841,11 @@
         <sys_created_on>2023-08-08 09:19:50</sys_created_on>
         <sys_id>ce94a1591be4b11013de99f1b24bcb09</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_ce9461591be4b11013de99f1b24bcbfe_sn_auth_token_en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-08-08 09:19:50</sys_updated_on>
         <url/>
@@ -2300,11 +2224,11 @@
         <sys_created_on>2023-08-08 09:19:50</sys_created_on>
         <sys_id>8a9461591be4b11013de99f1b24bcbfc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Title</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_869461591be4b11013de99f1b24bcbf5_title_en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-08-08 09:19:50</sys_updated_on>
         <url/>
@@ -2325,11 +2249,11 @@
         <sys_created_on>2023-08-08 09:19:51</sys_created_on>
         <sys_id>1a94a1591be4b11013de99f1b24bcb44</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_869461591be4b11013de99f1b24bcbf5___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-08-08 09:19:51</sys_updated_on>
         <url/>
@@ -2348,11 +2272,11 @@
         <sys_created_on>2023-08-08 09:19:51</sys_created_on>
         <sys_id>4e94a1591be4b11013de99f1b24bcb2d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_869461591be4b11013de99f1b24bcbf5___action_status___en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-08-08 09:19:51</sys_updated_on>
         <url/>
@@ -2371,11 +2295,11 @@
         <sys_created_on>2023-08-08 09:19:51</sys_created_on>
         <sys_id>5694a1591be4b11013de99f1b24bcb32</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>movies</sys_name>
         <sys_package display_value="OMDB Spoke" source="x_snc_omdb_spoke">135051601bd43110c9c10d02604bcb48</sys_package>
         <sys_policy/>
         <sys_scope display_value="OMDB Spoke">135051601bd43110c9c10d02604bcb48</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_869461591be4b11013de99f1b24bcbf5_movies_en</sys_update_name>
         <sys_updated_by>daniel.draes</sys_updated_by>
         <sys_updated_on>2023-08-08 12:06:06</sys_updated_on>
         <url/>
